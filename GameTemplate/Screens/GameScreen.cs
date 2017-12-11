@@ -210,7 +210,9 @@ namespace GameTemplate.Screens
 
             #region monster movements - TO BE COMPLETED
             if (aDown = true) { drawX--; }
-            if 
+            if (sDown = true) { drawX++; }
+            if (dDown = true) { drawY++; }
+            if (wDown = true) { drawY--; }
 
             #endregion
 
